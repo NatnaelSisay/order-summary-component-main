@@ -27,15 +27,53 @@
 		<title>Frontend Mentor | Order summary card</title>
 	</head>
 	<body>
-		Order Summary You can now listen to millions of songs, audiobooks, and
-		podcasts on any device anywhere you like! Annual Plan $59.99/year Change
-		Proceed to Payment Cancel Order
+		<main>
+			<div class="card">
+				<picture>
+					<img
+						src="./images/illustration-hero.svg"
+						alt="Girl listening to music illustration-hero"
+						class="card__img"
+					/>
+				</picture>
+
+				<div class="card__detail">
+					<h1 class="card__title">Order Summary</h1>
+					<p>
+						You can now listen to millions of songs, audiobooks, and podcasts on
+						any device anywhere you like!
+					</p>
+
+					<div class="card__item">
+						<div class="flex-group">
+							<img
+								class="card__item-icon"
+								src="./images/icon-music.svg"
+								alt=""
+							/>
+							<div class="flex-vertical">
+								<span class="card__item-title">Annual Plan</span>
+								<span class="card__item-price">$59.99/year</span>
+							</div>
+						</div>
+
+						<a href="#" class="card__link">Change</a>
+					</div>
+
+					<div class="grid-group">
+						<button class="btn btn-action">Procceed to Payment</button>
+						<button class="btn">Cancel Order</button>
+					</div>
+				</div>
+			</div>
+		</main>
 
 		<div class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 				>Frontend Mentor</a
-			>. Coded by <a href="#">Your Name Here</a>.
+			>. Coded by
+			<a href="https://www.linkedin.com/in/natnael-kagnaw/">Natnael Kagnaw</a>.
 		</div>
 	</body>
 </html>
