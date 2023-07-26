@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Link](https://github.com/NatnaelSisay/order-summary-component-main)
+- Live Site URL: [Netlify Link](https://elegant-meerkat-a8e490.netlify.app/)
 
 ## My process
 
